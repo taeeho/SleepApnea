@@ -1,0 +1,57 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+build/
+*.xcuserdatad/
+
+# Swift / SwiftPM
+.build/
+.swiftpm/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Data & Models (do not commit)
+data/raw/
+data/processed/
+data/interim/
+*.mlmodel
+*.mlpackage
+*.mlmodelc
+checkpoints/
+wandb/
+runs/
+*.h5
+*.pt
+*.ckpt
+*.onnx
+
+# Notebooks
+*.nbconvert.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
